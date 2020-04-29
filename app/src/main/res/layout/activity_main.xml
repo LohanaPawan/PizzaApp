@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tariqBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="30sp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Tariq Road (Open)"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/gulshanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="30sp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Gulshan (Open)"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/nazimabadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginLeft="20sp"
+        android:text="Nazimabad (Open)"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cliftonBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Clifton (Close)"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+</LinearLayout>

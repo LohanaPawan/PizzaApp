@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pizza App</string>
+    <string-array name="Dough">
+        <item>
+            Thin
+        </item>
+        <item>
+            Thick
+        </item>
+    </string-array>
+
+    <string-array name="Size">
+        <item>
+           Small
+        </item>
+        <item>
+            Medium
+        </item>
+        <item>
+            Large
+        </item>
+    </string-array>
+</resources>
